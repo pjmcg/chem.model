@@ -1,0 +1,192 @@
+
+
+charge_init= input("Initial Charge: ")
+
+amino_acid= input("Amino Acid: ")
+
+
+
+#
+#NEW CODE FOR POSITIVE CHARGE INPUTS
+#
+
+
+if amino_acid== ("alanine") and charge_init=="positive":
+    reaction= ("Reaction= None & Non-Polar side chain ")
+    print(reaction)
+
+elif amino_acid== ("arginine") and charge_init=="positive":  #positively charged side chain
+    reaction= ("Reaction= Repulsive & Positively charged side chain")
+    print(reaction)
+
+elif amino_acid== ("asparagine") and charge_init=="positive":
+    reaction= ("Reaction= None & Polar side chain ")
+    print(reaction)
+
+elif amino_acid== ("aspartic acid") and charge_init=="positive":                #negatively charged side chain
+    reaction= ("Reaction= Attraction & Negatively charged side chain")
+    print(reaction)
+
+elif amino_acid== ("cysteine") and charge_init=="positive":
+    reaction= ("Reaction= None & Non-Polar side chain ")
+    print(reaction)
+
+elif amino_acid== ("glutamic acid") and charge_init=="positive":             #negatively charged side chain
+    reaction= ("Reaction= Attraction & Negatively charged side chain")
+    print(reaction)
+
+elif amino_acid== ("glutamine") and charge_init=="positive":
+    reaction= ("Reaction= None & Polar side chain")
+    print(reaction)
+
+elif amino_acid== ("glycine") and charge_init=="positive":
+    reaction= ("Reaction= None & Non-Polar side chain ")
+    print(reaction)
+
+elif amino_acid== ("histidine") and charge_init=="positive":    #positively charged side chain
+    reaction= ("Reaction= Repulsive & Positively charged side chain")
+    print(reaction)
+
+elif amino_acid== ("isoleucine") and charge_init=="positive":
+    reaction= ("Reaction= None & Non-Polar side chain")
+    print(reaction)
+
+elif amino_acid== ("leucine") and charge_init=="positive":
+    reaction= ("Reaction= None & Non-Polar side chain ")
+    print(reaction)
+
+elif amino_acid== ("lysine") and charge_init=="positive":   #positively charged side chain
+    reaction= ("Reaction= Repulsive & Positively charged side chain ")
+    print(reaction)
+
+elif amino_acid== ("methionine") and charge_init=="positive":
+    reaction= ("Reaction= None & Non-Polar side chain ")
+    print(reaction)
+
+elif amino_acid== ("phenylalanine") and charge_init=="positive":
+    reaction= ("Reaction= None & Non-Polar side chain ")
+    print(reaction)
+
+elif amino_acid== ("proline") and charge_init=="positive":
+    reaction= ("Reaction= None & Non-Polar side chain ")
+    print(reaction)
+
+elif amino_acid== ("serine") and charge_init=="positive":
+    reaction= ("Reaction= None & Polar side chain ")
+    print(reaction)
+
+elif amino_acid== ("threonine") and charge_init=="positive":
+    reaction= ("Reaction= None & Polar side chain ")
+    print(reaction)
+
+elif amino_acid== ("tryptophan") and charge_init=="positive":
+    reaction= ("Reaction= None & Non-Polar side chain ")
+    print(reaction)
+
+elif amino_acid== ("tyrosine") and charge_init=="positive":
+    reaction= ("Reaction= None & Polar side chain ")
+    print(reaction)
+
+elif amino_acid== ("valine") and charge_init=="positive":
+    reaction= ("Reaction= None & Non-Polar side chain ")
+    print(reaction)
+
+#
+#NEW CODE FOR NEGATIVE CHARGE INPUTS
+#
+
+elif amino_acid== ("alanine") and charge_init=="negative":
+    reaction= ("Reaction= None & Non-Polar side chain ")
+    print(reaction)
+
+elif amino_acid== ("arginine") and charge_init=="negative":                 #positively charged side chain
+    reaction= ("Reaction= Attractive & Positively charged side chain")
+    print(reaction)
+
+elif amino_acid== ("asparagine") and charge_init=="negative":
+    reaction= ("Reaction= None & Polar side chain ")
+    print(reaction)
+
+elif amino_acid== ("aspartic acid") and charge_init=="negative":              #negatively charged side chain
+    reaction= ("Reaction= Repulsion & Negatively charged side chain")
+    print(reaction)
+
+elif amino_acid== ("cysteine") and charge_init=="negative":
+    reaction= ("Reaction= None & Non-Polar side chain ")
+    print(reaction)
+
+elif amino_acid== ("glutamic acid") and charge_init=="negative":                #negatively charged side chain
+    reaction= ("Reaction= Repulsion & Negatively charged side chain")
+    print(reaction)
+
+elif amino_acid== ("glutamine") and charge_init=="negative":
+    reaction= ("Reaction= None & Polar side chain")
+    print(reaction)
+
+elif amino_acid== ("glycine") and charge_init=="negative":
+    reaction= ("Reaction= None & Non-Polar side chain ")
+    print(reaction)
+
+elif amino_acid== ("histidine") and charge_init=="negative":                      #positively charged side chain
+    reaction= ("Reaction= Attractive & Positively charged side chain")
+    print(reaction)
+
+elif amino_acid== ("isoleucine") and charge_init=="negative":
+    reaction= ("Reaction= None & Non-Polar side chain")
+    print(reaction)
+
+elif amino_acid== ("leucine") and charge_init=="negative" :
+    reaction= ("Reaction= None & Non-Polar side chain")
+    print(reaction)
+
+elif amino_acid== ("lysine") and charge_init=="negative" :                       #positively charged side chain
+    reaction= ("Reaction= Attractive & Positively charged side chain ")
+    print(reaction)
+
+elif amino_acid== ("methionine") and charge_init=="negative":
+    reaction= ("Reaction= None & Non-Polar side chain ")
+    print(reaction)
+
+elif amino_acid== ("phenylalanine") and charge_init=="negative":
+    reaction= ("Reaction= None & Non-Polar side chain ")
+    print(reaction)
+
+elif amino_acid== ("proline") and charge_init=="negative":
+    reaction= ("Reaction= None & Non-Polar side chain ")
+    print(reaction)
+
+elif amino_acid== ("serine") and charge_init=="negative":
+    reaction= ("Reaction= None & Polar side chain ")
+    print(reaction)
+
+elif amino_acid== ("threonine") and charge_init=="negative":
+    reaction= ("Reaction= None & Polar side chain ")
+    print(reaction)
+
+elif amino_acid== ("tryptophan") and charge_init=="negative":
+    reaction= ("Reaction= None & Non-Polar side chain ")
+    print(reaction)
+
+elif amino_acid== ("tyrosine") and charge_init=="negative":
+    reaction= ("Reaction= None & Polar side chain ")
+    print(reaction)
+
+elif amino_acid== ("valine") and charge_init=="negative":
+    reaction= ("Reaction= None & Non-Polar side chain ")
+    print(reaction)
+
+
+
+#######
+#######
+else:
+
+    possible_errors = [" ", "Possible Spelling Error", "Invalid Amino Acid", "Invalid Charge Entry"]
+    for item in possible_errors:
+        print(item)
+
+stop=input("Hit enter to close")
+print(stop)
+
+
+#add hydrogen bonding interactions, cation pi interactions
