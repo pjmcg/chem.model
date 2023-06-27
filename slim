@@ -1,28 +1,33 @@
-
 item= input("Enter Amino Acid: ")
+#modified_item= item.lower()
+
 charge= input("Enter Charge: ")
+#modified_charge= charge.lower()
 
 pcaa = ["arginine", "histidine", "lysine"]
 ncaa= ["aspartic acid", "glutamic acid"]
 ucaa= ["glycine", "alanine", "valine", "leucine", "isoleucine", "methionine", "proline", "tryptophan", "phenylalanine", "cysteine"]
 
 
+
+# using the function variable.lower() we want to convert the input to lower so no matter what case its input, we can use a lowercase version as our return value
+
 #positively charged amino acids
-if item in pcaa and charge== "positive":
+if item.lower() in pcaa and charge.lower()== "positive":
         print("Reaction= Repulsive & Positively charged side chain")
 
-elif item in pcaa and charge== "negative":
+elif item.lower() in pcaa and charge.lower()== "negative":
         print("Reaction= Attractive & Positively charged side chain")
 
 #negatively charged amino acids
-elif item in ncaa and charge== "negative":
+elif item.lower() in ncaa and charge.lower()== "negative":
         print("Reaction= Repulsive & Negatively charged side chain")
 
-elif item in ncaa and charge== "positive":
+elif item.lower() in ncaa and charge.lower()== "positive":
         print("Reaction= Attractive & Negatively charged side chain")
 
 #uncharged amino aciids
-elif item in ucaa and charge== "negative" or charge== "positive":
+elif item.lower() in ucaa and charge.lower()== "negative" or charge.lower()== "positive":
         print("Reaction= None & Non-Polar side chain")
 
 else: print("Error in Entry")
